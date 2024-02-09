@@ -7,7 +7,7 @@ module.exports = new Sequelize(
 	{
 		host: 'localhost',
 		dialect: 'postgres',
-		port: process.env.DB_PORT
+		port: process.env.DB_PORT 
 	}
 )
 
